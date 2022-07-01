@@ -1,0 +1,46 @@
+% Here, you can define your own macros. Some examples are given below.
+
+\newcommand{\R}[0]{\mathds{R}} % real numbers
+\newcommand{\Z}[0]{\mathds{Z}} % integers
+\newcommand{\N}[0]{\mathds{N}} % natural numbers
+\newcommand{\C}[0]{\mathds{C}} % complex numbers
+\renewcommand{\vec}[1]{{\boldsymbol{{#1}}}} % vector
+\newcommand{\mat}[1]{{\boldsymbol{{#1}}}} % matrix
+
+% inseriti da me
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}{Definizione}
+%\renewcommand{\chaptername}{Unità}
+%\addto\captionsitalian{\renewcommand{\chaptername}{Sessione}}
+%\renewcommand{\chapter}{Capitolo}
+
+
+
+
+%New colors defined below
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+%Code listing style named "mystyle"
+\lstdefinestyle{mystyle}{
+  backgroundcolor=\color{backcolour},   commentstyle=\color{codegreen},
+  keywordstyle=\color{blue},
+  numberstyle=\tiny\color{codegray},
+  stringstyle=\color{codepurple},
+  basicstyle=\ttfamily\footnotesize,
+  breakatwhitespace=false,         
+  breaklines=true,                 
+  captionpos=b,                    
+  keepspaces=true,                 
+  numbers=left,                    
+  numbersep=5pt,                  
+  showspaces=false,                
+  showstringspaces=false,
+  showtabs=false,                  
+  tabsize=2
+}
+\lstset{style=mystyle}
